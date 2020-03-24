@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             Tovar Rushka = new Tovar();               // вызов 1-ого конструктора без параметров
             Tovar Mesh = new Tovar("Мяч");            //вызов 2-ого конструктора с одним параметром
-            Tovar sterka = new Tovar("Стёрка", 25,3); // вызов 3-его конструктора с тремя параметрами
+            Tovar sterka = new Tovar("Стёрка", 25, 3); // вызов 3-его конструктора с тремя параметрами
 
             Mesh.GetInfo();
             Rushka.GetInfo();

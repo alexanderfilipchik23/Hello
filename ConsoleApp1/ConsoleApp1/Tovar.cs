@@ -12,11 +12,11 @@ namespace ConsoleApp1
         private int colishestvo = 0;
         private float stoimosti = 0;
 
-       public  Tovar() { naminovanie = "Неизвестно"; colishestvo = 18; stoimosti = 12;}      // 1 конструктор
+        public Tovar() { naminovanie = "Неизвестно"; colishestvo = 18; stoimosti = 12; }      // 1 конструктор
 
-        public Tovar(string n) { naminovanie = n; colishestvo = 18; stoimosti = 12;}         // 2 конструктор
+        public Tovar(string n) { naminovanie = n; colishestvo = 18; stoimosti = 12; }         // 2 конструктор
 
-        public Tovar(string n, int a, float v) { naminovanie = n; colishestvo = a; stoimosti = v;}   // 3 конструктор
+        public Tovar(string n, int a, float v) { naminovanie = n; colishestvo = a; stoimosti = v; }   // 3 конструктор
 
         public void GetInfo()
 
